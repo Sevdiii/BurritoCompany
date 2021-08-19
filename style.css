@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+section {
+    width: calc( 100% - 30%);
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    height: 11vh;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    font-size: 25px;
+}
+
+.nav-links a {
+    color: white;
+    padding-right: 15px;
+    text-decoration: none;
+    outline: none;
+}
+
+
+/*Main-container*/
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-container {
+    background-color: rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.product-pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-info {
+    width: 250px;
+    margin-left: 50px;
+}
+
+#input-quant {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price button {
+    background: red;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.price button:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+
+/*Basket-Container*/
+
+.basket-container {
+    background-color: rgb(109, 105, 105);
+    position: absolute;
+    height: 100vh;
+    top: 12vh;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+}
+
+.product-basket {
+    background-color: rgb(114, 88, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product-info span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+}
+
+.product-price span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-container h3 {
+    text-align: center;
+}
+
+.priceandquan {
+    display: flex;
+    align-items: center;
+}
+
+.priceandquan span {
+    margin-left: 15px;
+}
+
+.add-basket {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+    color: white;
+}
+
+.add-basket:hover {
+    background-color: black;
+}
