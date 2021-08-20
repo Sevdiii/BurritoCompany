@@ -16,7 +16,7 @@ class Product {
 
 }
 
-Products = [{
+let products = [{
         "name": "Pizza Margerita",
         "price": "8,00",
         "img": "./img/pizza.jpeg",
